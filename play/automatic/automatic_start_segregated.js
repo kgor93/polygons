@@ -14,7 +14,7 @@ window.reset = function(){
 	for(var i=0;i<POLYGON_POSITIONS.length;i++){
 		var pos = POLYGON_POSITIONS[i];
 		var draggable = new Draggable(pos.x,pos.y);
-		draggable.color = pos.color ? "triangle" : "square";
+		draggable.color = pos.color ? "triangle" : "square" : "circle" : "pentagon";
 		draggables.push(draggable);
 	}
 
