@@ -260,7 +260,7 @@ window.reset = function(){
 		for(var y=0;y<GRID_SIZE;y++){
 			if(Math.random()<(1-window.EMPTINESS)){
 				var draggable = new Draggable((x+0.5)*TILE_SIZE, (y+0.5)*TILE_SIZE);
-				draggable.color = (Math.random()<window.RATIO_TRIANGLES) ? "triangle" : "square";
+				draggable.color = (Math.random()<window.RATIO_TRIANGLES) ? "triangle" : "square" : "circle" : "pentagon";
 				draggables.push(draggable);
 			}
 		}
