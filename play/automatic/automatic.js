@@ -200,13 +200,29 @@ function Draggable(x,y){
 			}else{
 				img = images.yayTriangle;
 			}
-		}else{
+		}else if(self.color=="square"){
 			if(self.shaking){
 				img = images.sadSquare;
 			}else if(self.bored){
 				img = images.mehSquare;
 			}else{
 				img = images.yaySquare;
+			}
+		}else if(self.color=="circle"){
+			if(self.shaking){
+				img = images.circle;   //////need happy and sad images for both cirlces and pentagons
+			}else if(self.bored){
+				img = images.circle;
+			}else{
+				img = images.circle;
+			}
+		}else if(self.color=="pentagon"){
+			if(self.shaking){
+				img = images.pentagon;
+			}else if(self.bored){
+				img = images.pentagon;
+			}else{
+				img = images.pentagon;
 			}
 		}
 
