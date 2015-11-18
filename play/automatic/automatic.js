@@ -38,7 +38,7 @@ addAsset("sadTriangle","../img/sad_triangle.png");
 addAsset("yaySquare","../img/yay_square.png");
 addAsset("mehSquare","../img/meh_square.png");
 addAsset("sadSquare","../img/sad_square.png");
-//addAsset("sadSquare","../img/circle.png");
+//addAsset("sadSquare","../img/circle.png");  //THESE NEED TO BE ADDED IN
 //addAsset("sadSquare","../img/pentagon.png");
 
 var IS_PICKING_UP = false;
