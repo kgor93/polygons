@@ -13,8 +13,10 @@ var DIAGONAL_SQUARED = (TILE_SIZE+5)*(TILE_SIZE+5) + (TILE_SIZE+5)*(TILE_SIZE+5)
 
 
 
-window.RATIO_TRIANGLES = 0.5;
-window.RATIO_SQUARES = 0.5;
+window.RATIO_TRIANGLES = 0.25;
+window.RATIO_SQUARES = 0.25;
+window.RATIO_CIRCLES = 0.25;
+window.RATIO_PENTAGON = 0.25;
 window.EMPTINESS = 0.2;
 
 
@@ -36,6 +38,8 @@ addAsset("sadTriangle","../img/sad_triangle.png");
 addAsset("yaySquare","../img/yay_square.png");
 addAsset("mehSquare","../img/meh_square.png");
 addAsset("sadSquare","../img/sad_square.png");
+//addAsset("sadSquare","../img/circle.png");
+//addAsset("sadSquare","../img/pentagon.png");
 
 var IS_PICKING_UP = false;
 var lastMouseX, lastMouseY;
